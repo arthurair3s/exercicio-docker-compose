@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Postgres Escolar (Docker)",
+      "Group": "Servers",
+      "Host": "db",
+      "Port": 5432,
+      "MaintenanceDB": "db_gestao_escolar",
+      "Username": "admin",
+      "SSLMode": "prefer"
+    }
+  }
+}
