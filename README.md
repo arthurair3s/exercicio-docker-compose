@@ -56,6 +56,3 @@ docker compose down
 - <img width="1853" height="992" alt="image" src="https://github.com/user-attachments/assets/115c27cf-a53a-422d-aad2-48ff5eedb425" />
 
 - <img width="1735" height="645" alt="image" src="https://github.com/user-attachments/assets/7b382d0d-a831-4b37-b50f-52c1238d2819" />
-
-
-> Todo o fluxo acima foi validado de ponta a ponta nesta máquina: build das 3 imagens, subida dos 4 containers, chamada `POST /api/alunos` através do Nginx e conferência do registro direto no pgAdmin.
