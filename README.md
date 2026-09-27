@@ -51,8 +51,11 @@ docker compose down
 
 ## Prints exigidos pela atividade
 
-1. **Containers rodando**: `docker compose ps` (ou `docker ps`) mostrando os 4 containers `Up`.
-2. **Aplicação pelo Nginx**: navegador aberto em `http://localhost/api-docs` (ou `http://localhost/api/alunos`) — repare que não é preciso a porta 3000.
-3. **pgAdmin conectado ao banco**: pgAdmin logado, servidor "Postgres Escolar (Docker)" expandido até `Databases > db_gestao_escolar > Schemas > public > Tables`, mostrando as tabelas `alunos`, `cursos`, `matriculas`.
+- <img width="1388" height="200" alt="image" src="https://github.com/user-attachments/assets/b6d0757c-fb4e-42fc-83f9-d4d1b4747095" />
+
+- <img width="1853" height="992" alt="image" src="https://github.com/user-attachments/assets/115c27cf-a53a-422d-aad2-48ff5eedb425" />
+
+- <img width="1735" height="645" alt="image" src="https://github.com/user-attachments/assets/7b382d0d-a831-4b37-b50f-52c1238d2819" />
+
 
 > Todo o fluxo acima foi validado de ponta a ponta nesta máquina: build das 3 imagens, subida dos 4 containers, chamada `POST /api/alunos` através do Nginx e conferência do registro direto no pgAdmin.
